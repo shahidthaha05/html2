@@ -1,0 +1,20 @@
+@keyframes fball{
+    from{
+        
+        transform: translatey(0px) rotate(0deg);
+    }
+    to{
+        
+        transform: translatey(300px)rotate(360deg);
+    }
+}
+.main{
+    height: 150px;
+    width: 150px;
+    animation-name: fball;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}

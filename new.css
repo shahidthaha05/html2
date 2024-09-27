@@ -1,0 +1,20 @@
+@keyframes new{
+    from{
+        background-color: blue;
+        transform: translate(0px);
+    }
+    to{
+        background-color: green;
+        transform: translate(300px);
+    }
+}
+.main{
+    height: 200px;
+    width: 200px;
+    animation-name: new;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 5;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
